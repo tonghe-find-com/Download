@@ -1,0 +1,55 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateDownloadsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return null
+     */
+    public function up()
+    {
+        Schema::create('downloadcategories', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
+            $table->increments('id');
+            $table->json('status');
+            $table->json('title');
+            $table->json('slug');
+
+            $table->json('meta_title');
+            $table->json('meta_keywords');
+            $table->json('meta_description');
+
+            $table->integer('position')->unsigned()->default(0);
+
+            $table->timestamps();
+        });
+
+        Schema::create('downloads', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
+            $table->increments('id');
+            $table->json('status');
+            $table->json('title');
+            $table->integer('image_id')->unsigned()->nullable();
+            $table->date('show_date');
+            $table->integer('position')->unsigned()->default(0);
+            $table->integer('category_id')->unsigned()->nullable()->default(null);
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return null
+     */
+    public function down()
+    {
+        Schema::drop('downloads');
+        Schema::drop('downloadcategories');
+    }
+}

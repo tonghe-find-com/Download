@@ -1,0 +1,18 @@
+{
+    "name": "tonghe/download",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+    ],
+    "require": {
+        "eluceo/ical": "^0.16",
+        "laravel/framework": "~8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tonghe\\Modules\\Download\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
