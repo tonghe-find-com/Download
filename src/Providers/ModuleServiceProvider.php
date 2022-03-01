@@ -30,6 +30,10 @@ class ModuleServiceProvider extends ServiceProvider
             __DIR__.'/../database/migrations/create_downloads_table.php.stub' => getMigrationFileName('create_downloads_table'),
         ], 'migrations');
 
+        $this->publishes([
+            __DIR__.'/../../resources/views' => resource_path('views/vendor/downloads'),
+        ], 'views');
+
         AliasLoader::getInstance()->alias('Downloads', Downloads::class);
         AliasLoader::getInstance()->alias('Downloadcategories', Downloadcategories::class);
 
