@@ -10,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tonghe\\Modules\\Download\\": "src/"
+            "Tonghe\\Modules\\Downloads\\": "src/"
         }
     },
     "minimum-stability": "dev",
