@@ -10,7 +10,7 @@ use TypiCMS\Modules\Files\Models\File;
 use TypiCMS\Modules\Files\Traits\HasFiles;
 use TypiCMS\Modules\History\Traits\Historable;
 use TypiCMS\Modules\Downloads\Presenters\ModulePresenter;
-use TypiCMS\Modules\Downloadcategories\Models\Downloadcategory;
+use TypiCMS\Modules\Downloads\Models\Downloadcategory;
 
 class Download extends Base
 {
