@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonghe\Modules\Downloads\Models;
+namespace TypiCMS\Modules\Downloads\Models;
 
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Laracasts\Presenter\PresentableTrait;
@@ -9,7 +9,7 @@ use TypiCMS\Modules\Core\Models\Base;
 use TypiCMS\Modules\Files\Models\File;
 use TypiCMS\Modules\Files\Traits\HasFiles;
 use TypiCMS\Modules\History\Traits\Historable;
-use Tonghe\Modules\Downloads\Presenters\ModulePresenter;
+use TypiCMS\Modules\Downloads\Presenters\ModulePresenter;
 use TypiCMS\Modules\Downloadcategories\Models\Downloadcategory;
 
 class Download extends Base

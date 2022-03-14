@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonghe\Modules\Downloads\Http\Controllers\Item;
+namespace TypiCMS\Modules\Downloads\Http\Controllers\Item;
 
 use Illuminate\Http\Request;
 use Illuminate\Pagination\LengthAwarePaginator;
@@ -8,7 +8,7 @@ use Spatie\QueryBuilder\AllowedFilter;
 use Spatie\QueryBuilder\QueryBuilder;
 use TypiCMS\Modules\Core\Filters\FilterOr;
 use TypiCMS\Modules\Core\Http\Controllers\BaseApiController;
-use Tonghe\Modules\Downloads\Models\Download;
+use TypiCMS\Modules\Downloads\Models\Download;
 
 class ApiController extends BaseApiController
 {

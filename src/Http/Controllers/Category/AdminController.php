@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonghe\Modules\Downloads\Http\Controllers\Category;
+namespace TypiCMS\Modules\Downloads\Http\Controllers\Category;
 
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
@@ -8,8 +8,8 @@ use Illuminate\View\View;
 use Maatwebsite\Excel\Facades\Excel;
 use TypiCMS\Modules\Core\Http\Controllers\BaseAdminController;
 use TypiCMS\Modules\Downloadcategories\Exports\Export;
-use Tonghe\Modules\Downloads\Http\Requests\CategoryFormRequest;
-use Tonghe\Modules\Downloads\Models\Downloadcategory;
+use TypiCMS\Modules\Downloads\Http\Requests\CategoryFormRequest;
+use TypiCMS\Modules\Downloads\Models\Downloadcategory;
 
 class AdminController extends BaseAdminController
 {

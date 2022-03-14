@@ -1,11 +1,11 @@
 <?php
 
-namespace Tonghe\Modules\Downloads\Http\Controllers;
+namespace TypiCMS\Modules\Downloads\Http\Controllers;
 
 use Illuminate\View\View;
 use TypiCMS\Modules\Core\Http\Controllers\BasePublicController;
 use TypiCMS\Modules\Downloadcategories\Models\Downloadcategory;
-use Tonghe\Modules\Downloads\Models\Download;
+use TypiCMS\Modules\Downloads\Models\Download;
 
 class PublicController extends BasePublicController
 {

@@ -1,16 +1,16 @@
 <?php
 
-namespace Tonghe\Modules\Downloads\Providers;
+namespace TypiCMS\Modules\Downloads\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 use TypiCMS\Modules\Core\Facades\TypiCMS;
 use TypiCMS\Modules\Core\Observers\SlugObserver;
-use Tonghe\Modules\Downloads\Composers\SidebarViewComposer;
-use Tonghe\Modules\Downloads\Facades\Downloads;
-use Tonghe\Modules\Downloads\Models\Download;
-use Tonghe\Modules\Downloads\Models\Downloadcategory;
-use Tonghe\Modules\Downloads\Facades\Downloadcategories;
+use TypiCMS\Modules\Downloads\Composers\SidebarViewComposer;
+use TypiCMS\Modules\Downloads\Facades\Downloads;
+use TypiCMS\Modules\Downloads\Models\Download;
+use TypiCMS\Modules\Downloads\Models\Downloadcategory;
+use TypiCMS\Modules\Downloads\Facades\Downloadcategories;
 
 class ModuleServiceProvider extends ServiceProvider
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Tonghe\Modules\Downloads\Composers;
+namespace TypiCMS\Modules\Downloads\Composers;
 
 use Illuminate\Contracts\View\View;
 use Illuminate\Support\Facades\Gate;
