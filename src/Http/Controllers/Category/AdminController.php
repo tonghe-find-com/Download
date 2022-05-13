@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\View\View;
 use Maatwebsite\Excel\Facades\Excel;
 use TypiCMS\Modules\Core\Http\Controllers\BaseAdminController;
-use TypiCMS\Modules\Downloadcategories\Exports\Export;
+use TypiCMS\Modules\Downloads\Exports\Export;
 use TypiCMS\Modules\Downloads\Http\Requests\CategoryFormRequest;
 use TypiCMS\Modules\Downloads\Models\Downloadcategory;
 
